@@ -1,5 +1,7 @@
-function divison(firstValue = 2, secondValue = 3) {
-    total = firstValue/secondValue;
-    console.log(total);
-    return total;
+class Division{
+    firstResult(fristNumber, secondNumber){
+        return fristNumber/secondNumber;
+    }
 }
+
+module.exports = Division;
