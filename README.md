@@ -15,9 +15,13 @@ the jest library is downloaded with the following code in the terminal $ (npm i 
 STEP 5 
 before running the test in package.js in the part of the script it should be as follows
 
-"scripts": {
+```
+{
+  "scripts": {
     "test": "jest"
-  },
+  }
+}
+```
 
 STEP 6
 and to perform the test the following code is entered in the terminal $(npm test).
