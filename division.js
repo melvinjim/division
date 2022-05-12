@@ -1,23 +1,8 @@
-class Division{
-    firstResult(fristNumber, secondNumber){
-        return fristNumber/secondNumber;
+function division(fristNumber, secondNumber){
+    if (typeof fristNumber != "number" || typeof secondNumber != "number") {
+        return "I can not perform this division, I only receive numbers"
     }
-
-    secondtResult(fristNumber, secondNumber){
-        return fristNumber/secondNumber;
-    }
-
-    thirdResult(fristNumber, secondNumber){
-        return fristNumber/secondNumber;
-    }
-
-    forthResult(fristNumber, secondNumber){
-        if (secondNumber < 1) {
-            return 'error, cant divide by 0'
-        }
-        return fristNumber/secondNumber;
-    }
+    return fristNumber/secondNumber;
 }
 
-
-module.exports = Division;
+module.exports = division;

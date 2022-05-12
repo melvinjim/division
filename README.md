@@ -1,2 +1,25 @@
 # javascripttesting
-To be able to install or carry out a test in JavaScript, you must first install something called (NODE.JS) on the PC computer, after it has been downloaded correctly, it is executed and the respective activation is given to what is downloaded, after there a command is executed in the terminal of the pc to be able to finish the installation that command is npm init then a library is installed with the following code npm i--save-dave jest and ready that way the installation is finished, now to To be able to do a test in JavaScript, a new file must be made to which we are going to do the test, this must be called name.spect.js and here we will do what we want to do the test, when we believe that the code is finished and it is removed test is executed in the terminal inside the folder to which we want to do the test the following code npm test and it will execute if what was done in the code is correct or it will inform you if there is something wrong in your code
+
+STEP 1 
+You write in the browser download Node.js or to the following link https://nodejs.org/es/download/ if you have a mac it is given to install if on windows or mac. 
+
+STEP 2 
+At the bottom it will appear that a file is being downloaded, the file is selected when it is finished.
+
+STEP 3 
+After having opened the download tab, a tab will appear on the screen where you must select next as many times as it appears without modifying anything at the time of the tab, ask if you want to send the download to the trash can, you can do it without problems.
+
+STEP 4 
+After node.js has been installed correctly, we go to the console and locate ourselves in the file that we want to perform the test on, after being located in the file, we write the following code (npm init) shortly it will come out to assign a name. 
+
+STEP 5 
+After having assigned the name we can press enter and leave the following fields empty until we arrive at the console where it gives us the word (yes).
+
+SETP 6
+After having reached the word yes we install the jest library with the following code (npm i--save-dave jest).
+
+SETP 7
+After having installed the library we create a new file it can be name.spec.js or name.test.js and we make the code that we want to test.
+
+SETP 8
+When we have finished having done the coding to which we want to do the tests in the console we put npm test and there it will show if the test is wrong.
